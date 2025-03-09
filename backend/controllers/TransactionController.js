@@ -6,7 +6,7 @@ import jwt from "jsonwebtoken";
 import axios from "axios";
 dotenv.config();
 
-const espIp = "http://192.168.1.36";
+const espIp = "example-your-ip-wifi";
 
 export const turnOffLamp = async (io) => {
     try {
